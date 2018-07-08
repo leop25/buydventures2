@@ -27,7 +27,17 @@ int main() {
     //---------- INÍCIO DO JOGO ---------//
     CriaLista(&L);
     GeraCasas(&player);
-
+    cout << "██████████████████████████████████████████ BEM VINDO AO JOGO \"BuyDventure 2: Red Hood\"! ███████████████████████████████████████████" << endl;
+    cout << "█ Nesse jogo você passeia por uma floresta cheia de vendedores dispostos a te vender o que sua vó pediu para você levar, e fica   █" << endl <<
+            "█ ao seu julgamento comprar tais itens ou não...                                                                                  █" << endl
+         << "█                                                                                                                                 █" << endl
+         << "█ Ah, já ia esquecendo de avisar, tem uns LOBOS que ficam importunando a vida de quem passeia pela floresta...                    █" << endl
+         << "█ Tome cuidado, além de comerem qualquer coisa, inclusive todos seus itens... Ainda bem que são alérgicos a ferro...              █" << endl
+         << "█                                                                                                                                 █" << endl
+         << "█ A dungeon tem 5 lobos escondidos por aí, então escolha bem os passos que irá tomar...                                           █" << endl
+         << "█ Você tem 100 de GOLD, e seu inventário tem um limite de 5 itens, então gaste sabiamente.                                        █" << endl
+         << "███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████" << endl;
+   
     cout << "█ Vamos começar? (S)im ou (S)im?" << endl << "██╠ ";
     cin >> opt;
 
@@ -100,7 +110,7 @@ int main() {
                         }
                     }
                 }
-                cout << "██████████ Você conseguiu " << cont << " itens da lista! ███████████" << endl;
+                cout << "██████████ Você conseguiu " << cont << " de 5 itens da lista! ███████████" << endl;
             }
         }
     }
