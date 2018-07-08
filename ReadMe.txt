@@ -16,12 +16,12 @@ SOBRE O JOGO:
 
 MODULARIZAÇÃO DO CÓDIGO:
 
-XXXXX
+XXXX
 
 COMO COMPILAR:
 • Compilação direta: g++ -o BuyDventures main.cpp buydventures.cpp
  -> Rodar o executável gerado  
-• Makefile: make -f final.make
+• Makefile: make -f makefile.dms
  -> Rodar o executável gerado
 
 
