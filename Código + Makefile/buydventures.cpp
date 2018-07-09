@@ -1,6 +1,7 @@
 #include "buydventures.h"
 #include <iostream>
 
+//Estrutura
 void CriaLista(Lista *L) {
     L->Ultimo = -1;
 }
@@ -42,6 +43,7 @@ bool VerificaListaVazia(Lista *L) {
     return L->Ultimo == -1;
 }
 
+//Mecânica
 void GeraCasas(Tabuleiro *T){
     T->lobo[0] = rand()%25;
     T->lobo[1] = rand()%25;

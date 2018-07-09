@@ -16,7 +16,24 @@ SOBRE O JOGO:
 
 MODULARIZAÇÃO DO CÓDIGO:
 
-XXXX
+main.cpp:
+• Dividido em: 
+	• Mecânica de andar casa a casa 
+	• Mecânica de compras
+	• Funcionamento do Lobo
+	• Avaliação do final do jogo
+
+buydventures.h:
+• Dividido em:
+	• Declaração de funções da estrutura de Lista
+	• Declaração de funções da mecânica do jogo
+	• Declaração de estruturas de funcionamento do jogo
+
+buydventures.cpp:
+• Dividido em:
+	• Funcionamento das funções da estrutura de lista
+	• Funcionamento da mecânica do jogo
+
 
 COMO COMPILAR:
 • Compilação direta: g++ -o BuyDventures main.cpp buydventures.cpp
